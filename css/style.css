@@ -1,0 +1,68 @@
+/* Common Css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+	font-size:14px;
+	font-weight:400;
+	color:#333;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	flex-wrap: wrap;
+	background-color: #ddd;
+}
+.logo{
+	
+}
+.logo p #A{
+	color: #fcae61;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: poppins;
+}
+.logo p #B{
+	color: #242f51;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: poppins;
+}
+.menu{
+	
+}
+.menu ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu ul li{
+	padding: 10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: poppins;
+}
+.menu ul li button{
+	background-color: #2500f9;
+	font-weight: bold;
+	color: #fff;
+	padding: 12px 20px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+#headerbutton{
+	margin-top: -5px;
+}
